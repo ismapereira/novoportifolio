@@ -1,0 +1,44 @@
+
+.titulo_about{
+    font-family: "Kanit", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.hero_about{
+    max-width: 1120px;
+    height: 60vh;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 6rem;
+    align-items: center;
+
+    padding: 0 2rem;
+    margin: auto;
+}
+
+.hero_about > figure > img {
+    border-radius: 30%;
+    width: 110%;
+    border: 2px solid white;
+}
+
+.texto_secao{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.linha_about{
+    width: 39.6rem
+}
+
+.hero_about > figure > img:hover{
+    transform: scale(1.1);
+    opacity: 85%;
+    transition: 250ms linear;
+}
