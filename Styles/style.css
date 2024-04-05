@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #14324A;
+    color: #fff;
+}
+
+html{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* Após o reset e definições gerais */
+
+/* INÍCIO DO HEADER */
+nav{
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo_principal{
+    font-family: "Kanit", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    color: #ffffff;
+}
+
+.menu > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.github{
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+}
+/* FINAL DO HEADER */
+
+/* INÍCIO DO MAIN */
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.principal{
+    background: #0A2239;
+}
+
+.hero{
+    background: #0A2239;
+    
+    max-width: 1120px;
+    height: 60vh;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 6rem;
+    align-items: center;
+
+    padding: 0 2rem;
+    margin: auto;
+}
+
+.hero_conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.destaque{
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.azul_claro{
+    color: #53A2BE;
+}
+
+h1{
+    font-family: "Kanit", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+hr{
+    border-color: #53A2BE;
+}
+
+.hero_subtitulo{
+    color: #f5f5f5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.hero_imagem_container{
+    max-width: 45%;
+    column-count: 2;
+    column-gap: 1rem;
+    margin: -0.5rem;
+
+}
+
+.hero_imagem_container > figure > img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.botao_container{
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+    transform: translate(0, -50%);
+}
+
+button{
+    border: none;
+    padding: 0.9rem;
+    border-radius: 0.5rem;
+    
+    background: #53A2BE;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 1120px;
+    padding: 2.5rem 2rem;
+    margin: auto;
+}
+
+.contatos_cabecalho{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.azul_claro2{
+    color: #1D84B5;
+}
+
+.contatos_titulo{
+    font-family: "Kanit", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.contatos_subtitulo{
+    color: #f5f5f5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.contato_card_container{
+    padding: 0 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+
+.card_wpp{
+    background: #0A2239;
+    padding: 2rem;
+    border-radius: 0.5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 29rem;
+
+    margin-top: 2rem;
+    box-shadow: 2px 2px 8px black;
+}
+
+.card_wpp_cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_wpp_cabecalho_detalhes{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card_wpp_cabecalho_titulo{
+    font-family: "Kanit", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.contato_rede{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contato_rede > a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contato_rede > a > img{
+    width: 2.5rem;
+}
+
+.link_card{
+    text-decoration: none;
+    color: #fff;
+}
+
+.separacao{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: space-around;   
+}
+/* FINAL DO MAIN */
+
+/* INICIO DO FOOTER */
+footer{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0A2239;
+}
+
+.rodape_copy{
+    font-family: "Kanit", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+/* FINAL DO FOOTER */
