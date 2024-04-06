@@ -291,3 +291,348 @@ button:hover{
     transition: 150ms linear;
 }
 
+/* MEDIA QUERIES */
+
+@media (max-width: 820px){
+    
+    /* HEADER */
+    nav{
+        max-width: 820px;
+        margin: auto;
+        padding: 1rem 5rem;
+        gap: 1rem;
+    }
+
+    .titulo_principal{
+        font-size: 1rem;
+        font-weight: 600; 
+    }
+
+    .menu{        
+        gap: 2rem;
+    }
+
+    /* MAIN */
+    .hero{
+        background: #0A2239;
+        
+        height: 50vh;
+        
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+    
+        padding: 3.5rem 2rem;
+        margin: auto;
+
+        max-width: 820px;
+    }
+
+    .hero_conteudo{
+        gap: 0.5rem;
+        max-width: 820px;
+    }
+
+    h1{
+        font-size: 3rem;
+        max-width: 820px;
+    }
+
+    .hero_imagem_container{
+        max-width: 80%;
+        column-count: 2;
+        column-gap: 0.5rem;
+        margin: -0.5rem;
+    }
+
+    .botao_container{
+        width: 100%;
+        margin-left: 2rem;
+        transform: translate(0, -50%);
+
+        max-width: 820px;
+    }
+
+    .separacao{
+        flex-direction: column;
+        gap: 1rem;  
+    }
+
+    .card_wpp{    
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        flex-basis: 10rem;
+    }
+    
+    /* FOOTER */
+    footer{
+        max-width: 820px;
+    }
+}
+
+@media (max-width: 820px){
+    .hero_imagem_container{
+        max-width: 70%;
+        margin: -2.9rem;
+    }
+}
+
+@media (max-width: 960px){
+    nav{
+        max-width: 960px;
+        margin: auto;
+        padding: 1rem 5rem;
+        gap: 1rem;
+    }
+
+    .titulo_principal{
+        font-size: 1rem;
+        font-weight: 600; 
+    }
+
+    .menu{        
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 743px){
+    .hero{
+        background: #0A2239;
+        
+        max-width: 743px;
+        height: 50vh;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 5rem;
+        align-items: center;
+    
+        padding: 2.5rem 2rem;
+        margin: auto;
+    }
+
+    .hero_imagem_container{
+        max-width: 70%;
+        margin: -1rem;
+    }
+
+    h1{
+        font-size: 2.9rem;
+        max-width: 820px;
+    }
+}
+
+@media (max-width: 430px) {
+    nav{
+        max-width: 430px;
+        margin: auto;
+        padding: 0.5rem;
+        gap: 1rem;
+        margin: 0 0.5rem;
+    }
+
+    .titulo_principal{
+        
+        font-size: 0.9rem;
+       
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: row;
+        gap: 2.5rem;
+        color: #ffffff;
+        font-size: 0.9rem;
+    }
+
+    .itens_cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+        padding: 0.5rem 0 0.5rem 0.5rem;
+    }
+
+    .github{
+        font-size: 0.9rem;
+    }
+
+    .hero{
+        
+        
+        max-width: 430px;
+        height: 30vh;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 3rem;
+        align-items: center;
+    
+        padding: 0 2rem;
+        margin: auto;
+    }
+
+    .hero_conteudo{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .destaque{
+        font-size: 1rem;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    
+    .azul_claro{
+        color: #53A2BE;
+    }
+    
+    h1{
+        font-family: "Kanit", sans-serif;
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+
+    .hero_subtitulo{
+        color: #f5f5f5;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-size: 1rem;
+    }
+
+    .hero_imagem_container{
+        max-width: 70%;
+        column-count: 2;
+        column-gap: 1rem;
+        margin-bottom: 2rem;
+        margin-top: -2.1rem;
+
+    
+    }
+
+    .media_hero{
+        margin-top: 1rem;
+    }
+
+   .botao_container{
+    display: none;
+   }
+
+    .contatos{
+        display: flex;
+        flex-direction: column;
+        
+        max-width: 430px;
+        padding: 2rem;
+        margin: auto;
+        margin-top: -0.5rem;
+    }
+
+    .contatos_titulo{
+        font-family: "Kanit", sans-serif;
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+
+    .contatos_subtitulo{
+        color: #f5f5f5;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-size: 1rem;
+    }
+
+    .contato_card_container{
+        padding: 0 5rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1rem;
+    
+    }
+
+    .card_wpp{
+        background: #0A2239;
+        padding: 1rem;
+        border-radius: 0.5rem;
+    
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        flex-basis: 10rem;
+    
+        margin-top: 2rem;
+        box-shadow: 2px 2px 8px black;
+    }
+
+    .card_wpp_cabecalho_titulo{
+        font-family: "Kanit", sans-serif;
+        font-size: 1.35rem;
+        font-weight: 700;
+    }
+    
+    .contato_rede{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    
+    .contato_rede > a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .contato_rede > a > img{
+        width: 2.5rem;
+    }
+    
+    .link_card{
+        text-decoration: none;
+        color: #fff;
+        font-size: 0.9rem;
+    }
+    
+    .separacao{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: space-around;   
+    }
+
+    .span_card{
+        font-size: 0.7rem;
+    }
+
+    
+}
+
+@media (max-width: 414px){
+    h1{
+        font-family: "Kanit", sans-serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 390px){
+    h1{
+        font-family: "Kanit", sans-serif;
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+
+    .hero_imagem_container{
+        max-width: 65%;
+        column-count: 2;
+        column-gap: 1rem;
+        margin-bottom: 2rem;
+        margin-top: -3.2rem;
+    }
+}
